@@ -8,100 +8,94 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/mieszkowaw/Code/Float/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/c/Users/mieszkowaw/Home/Code/Float/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mieszkowaw/Code/Float/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mieszkowaw/Code/Float/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mieszkowaw/Code/Float/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mieszkowaw/Code/Float/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/mieszkowaw/Home/Code/Float/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/mieszkowaw/Home/Code/Float/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/mieszkowaw/Home/Code/Float/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/mieszkowaw/Home/Code/Float/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/mieszkowaw/Code/Float/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/c/Users/mieszkowaw/Home/Code/Float/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mieszkowaw/Code/Float/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mieszkowaw/Code/Float/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mieszkowaw/Code/Float/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mieszkowaw/Code/Float/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/mieszkowaw/Home/Code/Float/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/mieszkowaw/Home/Code/Float/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/mieszkowaw/Home/Code/Float/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/mieszkowaw/Home/Code/Float/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/mieszkowaw/Code/Float/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/c/Users/mieszkowaw/Home/Code/Float/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mieszkowaw/Code/Float/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mieszkowaw/Code/Float/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mieszkowaw/Code/Float/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mieszkowaw/Code/Float/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/mieszkowaw/Home/Code/Float/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/mieszkowaw/Home/Code/Float/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/mieszkowaw/Home/Code/Float/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/mieszkowaw/Home/Code/Float/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Float">
-				<Option output="/Users/mieszkowaw/Code/Float/cmake-build-debug/Float" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/mieszkowaw/Code/Float/cmake-build-debug"/>
+				<Option output="/cygdrive/c/Users/mieszkowaw/Home/Code/Float/cmake-build-debug/Float.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/mieszkowaw/Home/Code/Float/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mieszkowaw/Code/Float/cmake-build-debug/Makefile&quot;  VERBOSE=1 Float"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mieszkowaw/Code/Float/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mieszkowaw/Code/Float/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mieszkowaw/Code/Float/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/mieszkowaw/Home/Code/Float/cmake-build-debug/Makefile&quot;  VERBOSE=1 Float"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/mieszkowaw/Home/Code/Float/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/mieszkowaw/Home/Code/Float/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/mieszkowaw/Home/Code/Float/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Float/fast">
-				<Option output="/Users/mieszkowaw/Code/Float/cmake-build-debug/Float" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/mieszkowaw/Code/Float/cmake-build-debug"/>
+				<Option output="/cygdrive/c/Users/mieszkowaw/Home/Code/Float/cmake-build-debug/Float.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/mieszkowaw/Home/Code/Float/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mieszkowaw/Code/Float/cmake-build-debug/Makefile&quot;  VERBOSE=1 Float/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mieszkowaw/Code/Float/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mieszkowaw/Code/Float/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mieszkowaw/Code/Float/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/mieszkowaw/Home/Code/Float/cmake-build-debug/Makefile&quot;  VERBOSE=1 Float/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/mieszkowaw/Home/Code/Float/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/mieszkowaw/Home/Code/Float/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/mieszkowaw/Home/Code/Float/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/mieszkowaw/Code/Float/Double.c">
+		<Unit filename="/cygdrive/c/Users/mieszkowaw/Home/Code/Float/Double.c">
 			<Option target="Float"/>
 		</Unit>
-		<Unit filename="/Users/mieszkowaw/Code/Float/Double.h">
+		<Unit filename="/cygdrive/c/Users/mieszkowaw/Home/Code/Float/Double.h">
 			<Option target="Float"/>
 		</Unit>
-		<Unit filename="/Users/mieszkowaw/Code/Float/Float.c">
+		<Unit filename="/cygdrive/c/Users/mieszkowaw/Home/Code/Float/Float.c">
 			<Option target="Float"/>
 		</Unit>
-		<Unit filename="/Users/mieszkowaw/Code/Float/Float.h">
+		<Unit filename="/cygdrive/c/Users/mieszkowaw/Home/Code/Float/Float.h">
 			<Option target="Float"/>
 		</Unit>
-		<Unit filename="/Users/mieszkowaw/Code/Float/Tests.c">
+		<Unit filename="/cygdrive/c/Users/mieszkowaw/Home/Code/Float/Tests.c">
 			<Option target="Float"/>
 		</Unit>
-		<Unit filename="/Users/mieszkowaw/Code/Float/Tests.h">
+		<Unit filename="/cygdrive/c/Users/mieszkowaw/Home/Code/Float/Tests.h">
 			<Option target="Float"/>
 		</Unit>
-		<Unit filename="/Users/mieszkowaw/Code/Float/main.c">
+		<Unit filename="/cygdrive/c/Users/mieszkowaw/Home/Code/Float/main.c">
 			<Option target="Float"/>
 		</Unit>
-		<Unit filename="/Users/mieszkowaw/Code/Float/CMakeLists.txt">
+		<Unit filename="/cygdrive/c/Users/mieszkowaw/Home/Code/Float/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

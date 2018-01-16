@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/bin/cmake
+CMAKE_COMMAND = /cygdrive/c/Users/mieszkowaw/.CLion2017.3/system/cygwin_cmake/bin/cmake.exe
 
 # The command to remove a file.
-RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
+RM = /cygdrive/c/Users/mieszkowaw/.CLion2017.3/system/cygwin_cmake/bin/cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/mieszkowaw/Code/Float
+CMAKE_SOURCE_DIR = /cygdrive/c/Users/mieszkowaw/Home/Code/Float
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/mieszkowaw/Code/Float/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/c/Users/mieszkowaw/Home/Code/Float/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Float.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/Float.dir/flags.make
 
 CMakeFiles/Float.dir/main.c.o: CMakeFiles/Float.dir/flags.make
 CMakeFiles/Float.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mieszkowaw/Code/Float/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Float.dir/main.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Float.dir/main.c.o   -c /Users/mieszkowaw/Code/Float/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/mieszkowaw/Home/Code/Float/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Float.dir/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Float.dir/main.c.o   -c /cygdrive/c/Users/mieszkowaw/Home/Code/Float/main.c
 
 CMakeFiles/Float.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Float.dir/main.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mieszkowaw/Code/Float/main.c > CMakeFiles/Float.dir/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/mieszkowaw/Home/Code/Float/main.c > CMakeFiles/Float.dir/main.c.i
 
 CMakeFiles/Float.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Float.dir/main.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mieszkowaw/Code/Float/main.c -o CMakeFiles/Float.dir/main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/mieszkowaw/Home/Code/Float/main.c -o CMakeFiles/Float.dir/main.c.s
 
 CMakeFiles/Float.dir/main.c.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/Float.dir/main.c.o.provides.build: CMakeFiles/Float.dir/main.c.o
 
 CMakeFiles/Float.dir/Float.c.o: CMakeFiles/Float.dir/flags.make
 CMakeFiles/Float.dir/Float.c.o: ../Float.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mieszkowaw/Code/Float/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Float.dir/Float.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Float.dir/Float.c.o   -c /Users/mieszkowaw/Code/Float/Float.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/mieszkowaw/Home/Code/Float/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Float.dir/Float.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Float.dir/Float.c.o   -c /cygdrive/c/Users/mieszkowaw/Home/Code/Float/Float.c
 
 CMakeFiles/Float.dir/Float.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Float.dir/Float.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mieszkowaw/Code/Float/Float.c > CMakeFiles/Float.dir/Float.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/mieszkowaw/Home/Code/Float/Float.c > CMakeFiles/Float.dir/Float.c.i
 
 CMakeFiles/Float.dir/Float.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Float.dir/Float.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mieszkowaw/Code/Float/Float.c -o CMakeFiles/Float.dir/Float.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/mieszkowaw/Home/Code/Float/Float.c -o CMakeFiles/Float.dir/Float.c.s
 
 CMakeFiles/Float.dir/Float.c.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/Float.dir/Float.c.o.provides.build: CMakeFiles/Float.dir/Float.c.o
 
 CMakeFiles/Float.dir/Tests.c.o: CMakeFiles/Float.dir/flags.make
 CMakeFiles/Float.dir/Tests.c.o: ../Tests.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mieszkowaw/Code/Float/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Float.dir/Tests.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Float.dir/Tests.c.o   -c /Users/mieszkowaw/Code/Float/Tests.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/mieszkowaw/Home/Code/Float/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Float.dir/Tests.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Float.dir/Tests.c.o   -c /cygdrive/c/Users/mieszkowaw/Home/Code/Float/Tests.c
 
 CMakeFiles/Float.dir/Tests.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Float.dir/Tests.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mieszkowaw/Code/Float/Tests.c > CMakeFiles/Float.dir/Tests.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/mieszkowaw/Home/Code/Float/Tests.c > CMakeFiles/Float.dir/Tests.c.i
 
 CMakeFiles/Float.dir/Tests.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Float.dir/Tests.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mieszkowaw/Code/Float/Tests.c -o CMakeFiles/Float.dir/Tests.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/mieszkowaw/Home/Code/Float/Tests.c -o CMakeFiles/Float.dir/Tests.c.s
 
 CMakeFiles/Float.dir/Tests.c.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/Float.dir/Tests.c.o.provides.build: CMakeFiles/Float.dir/Tests.c.o
 
 CMakeFiles/Float.dir/Double.c.o: CMakeFiles/Float.dir/flags.make
 CMakeFiles/Float.dir/Double.c.o: ../Double.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mieszkowaw/Code/Float/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Float.dir/Double.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Float.dir/Double.c.o   -c /Users/mieszkowaw/Code/Float/Double.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/mieszkowaw/Home/Code/Float/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Float.dir/Double.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Float.dir/Double.c.o   -c /cygdrive/c/Users/mieszkowaw/Home/Code/Float/Double.c
 
 CMakeFiles/Float.dir/Double.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Float.dir/Double.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mieszkowaw/Code/Float/Double.c > CMakeFiles/Float.dir/Double.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/mieszkowaw/Home/Code/Float/Double.c > CMakeFiles/Float.dir/Double.c.i
 
 CMakeFiles/Float.dir/Double.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Float.dir/Double.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mieszkowaw/Code/Float/Double.c -o CMakeFiles/Float.dir/Double.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/mieszkowaw/Home/Code/Float/Double.c -o CMakeFiles/Float.dir/Double.c.s
 
 CMakeFiles/Float.dir/Double.c.o.requires:
 
@@ -163,17 +163,17 @@ Float_OBJECTS = \
 # External object files for target Float
 Float_EXTERNAL_OBJECTS =
 
-Float: CMakeFiles/Float.dir/main.c.o
-Float: CMakeFiles/Float.dir/Float.c.o
-Float: CMakeFiles/Float.dir/Tests.c.o
-Float: CMakeFiles/Float.dir/Double.c.o
-Float: CMakeFiles/Float.dir/build.make
-Float: CMakeFiles/Float.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mieszkowaw/Code/Float/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable Float"
+Float.exe: CMakeFiles/Float.dir/main.c.o
+Float.exe: CMakeFiles/Float.dir/Float.c.o
+Float.exe: CMakeFiles/Float.dir/Tests.c.o
+Float.exe: CMakeFiles/Float.dir/Double.c.o
+Float.exe: CMakeFiles/Float.dir/build.make
+Float.exe: CMakeFiles/Float.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/mieszkowaw/Home/Code/Float/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable Float.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Float.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/Float.dir/build: Float
+CMakeFiles/Float.dir/build: Float.exe
 
 .PHONY : CMakeFiles/Float.dir/build
 
@@ -189,6 +189,6 @@ CMakeFiles/Float.dir/clean:
 .PHONY : CMakeFiles/Float.dir/clean
 
 CMakeFiles/Float.dir/depend:
-	cd /Users/mieszkowaw/Code/Float/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/mieszkowaw/Code/Float /Users/mieszkowaw/Code/Float /Users/mieszkowaw/Code/Float/cmake-build-debug /Users/mieszkowaw/Code/Float/cmake-build-debug /Users/mieszkowaw/Code/Float/cmake-build-debug/CMakeFiles/Float.dir/DependInfo.cmake --color=$(COLOR)
+	cd /cygdrive/c/Users/mieszkowaw/Home/Code/Float/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/c/Users/mieszkowaw/Home/Code/Float /cygdrive/c/Users/mieszkowaw/Home/Code/Float /cygdrive/c/Users/mieszkowaw/Home/Code/Float/cmake-build-debug /cygdrive/c/Users/mieszkowaw/Home/Code/Float/cmake-build-debug /cygdrive/c/Users/mieszkowaw/Home/Code/Float/cmake-build-debug/CMakeFiles/Float.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Float.dir/depend
 

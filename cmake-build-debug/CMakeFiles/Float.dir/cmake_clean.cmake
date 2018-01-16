@@ -4,7 +4,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Float.dir/Tests.c.o"
   "CMakeFiles/Float.dir/Double.c.o"
   "Float.pdb"
-  "Float"
+  "Float.exe"
+  "libFloat.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/mieszkowaw/Code/Float/Double.c
+/cygdrive/c/Users/mieszkowaw/Home/Code/Float/Double.c
 Double.h
-/Users/mieszkowaw/Code/Float/Double.h
+/cygdrive/c/Users/mieszkowaw/Home/Code/Float/Double.h
 Tests.h
-/Users/mieszkowaw/Code/Float/Tests.h
+/cygdrive/c/Users/mieszkowaw/Home/Code/Float/Tests.h
 stdio.h
 -
 stdint.h
@@ -18,17 +18,17 @@ stdint.h
 stdlib.h
 -
 
-/Users/mieszkowaw/Code/Float/Double.h
+/cygdrive/c/Users/mieszkowaw/Home/Code/Float/Double.h
 stdint.h
 -
 stdio.h
 -
 
-/Users/mieszkowaw/Code/Float/Float.c
+/cygdrive/c/Users/mieszkowaw/Home/Code/Float/Float.c
 Float.h
-/Users/mieszkowaw/Code/Float/Float.h
+/cygdrive/c/Users/mieszkowaw/Home/Code/Float/Float.h
 Tests.h
-/Users/mieszkowaw/Code/Float/Tests.h
+/cygdrive/c/Users/mieszkowaw/Home/Code/Float/Tests.h
 stdio.h
 -
 stdint.h
@@ -36,25 +36,31 @@ stdint.h
 stdlib.h
 -
 
-/Users/mieszkowaw/Code/Float/Float.h
+/cygdrive/c/Users/mieszkowaw/Home/Code/Float/Float.h
 stdint.h
 -
 stdio.h
 -
 
-/Users/mieszkowaw/Code/Float/Tests.c
+/cygdrive/c/Users/mieszkowaw/Home/Code/Float/Tests.c
+stdio.h
+-
+string.h
+-
 Tests.h
-/Users/mieszkowaw/Code/Float/Tests.h
+/cygdrive/c/Users/mieszkowaw/Home/Code/Float/Tests.h
 
-/Users/mieszkowaw/Code/Float/Tests.h
+/cygdrive/c/Users/mieszkowaw/Home/Code/Float/Tests.h
+stdlib.h
+-
 stdint.h
 -
 
-/Users/mieszkowaw/Code/Float/main.c
+/cygdrive/c/Users/mieszkowaw/Home/Code/Float/main.c
 stdio.h
 -
 Float.h
-/Users/mieszkowaw/Code/Float/Float.h
+/cygdrive/c/Users/mieszkowaw/Home/Code/Float/Float.h
 Double.h
-/Users/mieszkowaw/Code/Float/Double.h
+/cygdrive/c/Users/mieszkowaw/Home/Code/Float/Double.h
 

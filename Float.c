@@ -21,6 +21,15 @@ void float_int32_test() {
   if (!f) {
     perror(filename);
   }
+
+  fprintf(f, "id,");
+  fprintf(f, "int_a,");
+  fprintf(f, "int_b,");
+  fprintf(f, "int_result,");
+  fprintf(f, "float_a,");
+  fprintf(f, "float_b,");
+  fprintf(f, "float_result,");
+  fprintf(f, "error\n");
   
   for (int_t i = 1; i < (RANGE * PRECISION + 1); ++i) {
     num = base * i;
@@ -39,6 +48,7 @@ void float_int32_test() {
     r.error = abs(r.int_result - ((int_t) r.float_result));
     
     // Print results
+    fprintf(f, "%d,", i);
     fprintf(f, "%d,", r.int_a);
     fprintf(f, "%d,", r.int_b);
     fprintf(f, "%d,", r.int_result);

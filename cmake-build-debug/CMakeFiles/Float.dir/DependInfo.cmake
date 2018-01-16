@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/mieszkowaw/Code/Float/Double.c" "/Users/mieszkowaw/Code/Float/cmake-build-debug/CMakeFiles/Float.dir/Double.c.o"
-  "/Users/mieszkowaw/Code/Float/Float.c" "/Users/mieszkowaw/Code/Float/cmake-build-debug/CMakeFiles/Float.dir/Float.c.o"
-  "/Users/mieszkowaw/Code/Float/Tests.c" "/Users/mieszkowaw/Code/Float/cmake-build-debug/CMakeFiles/Float.dir/Tests.c.o"
-  "/Users/mieszkowaw/Code/Float/main.c" "/Users/mieszkowaw/Code/Float/cmake-build-debug/CMakeFiles/Float.dir/main.c.o"
+  "/cygdrive/c/Users/mieszkowaw/Home/Code/Float/Double.c" "/cygdrive/c/Users/mieszkowaw/Home/Code/Float/cmake-build-debug/CMakeFiles/Float.dir/Double.c.o"
+  "/cygdrive/c/Users/mieszkowaw/Home/Code/Float/Float.c" "/cygdrive/c/Users/mieszkowaw/Home/Code/Float/cmake-build-debug/CMakeFiles/Float.dir/Float.c.o"
+  "/cygdrive/c/Users/mieszkowaw/Home/Code/Float/Tests.c" "/cygdrive/c/Users/mieszkowaw/Home/Code/Float/cmake-build-debug/CMakeFiles/Float.dir/Tests.c.o"
+  "/cygdrive/c/Users/mieszkowaw/Home/Code/Float/main.c" "/cygdrive/c/Users/mieszkowaw/Home/Code/Float/cmake-build-debug/CMakeFiles/Float.dir/main.c.o"
   )
-set(CMAKE_C_COMPILER_ID "AppleClang")
+set(CMAKE_C_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
